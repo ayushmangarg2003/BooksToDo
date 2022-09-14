@@ -1,0 +1,112 @@
+body {
+  font-family: Tahoma;
+  color:white;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #38cc77, #50dbb4);
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#wrapper {
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/18/20/43/literature-3091212_960_720.jpg);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  max-width: 1000x;
+  margin: 10vh auto;
+  border-radius: 6px;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+#page-banner {
+  color: white;
+  padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#book-list,
+#add-book,
+#tabbed-content {
+  margin: 30px;
+}
+
+#book-list ul,
+#tabbed-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#book-list li {
+  padding: 20px;
+  border-left: 6px solid #ddd;
+  margin: 20px 10px;
+}
+
+#book-list li:hover {
+  border-color: #02b290;
+}
+
+.delete {
+  float: right;
+  background: #02b290;
+  padding: 7px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover {
+  background: #1c8d73;
+}
+
+#add-book {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-book input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}
+
+#add-book button {
+  border: 1px solid #02b290;
+  background: #02b290;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 20px 0;
+  border-left: 0;
+  color: white;
+}
+
+#add-book:after {
+  content: "";
+  display: block;
+  clear: both;
+}
